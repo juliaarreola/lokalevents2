@@ -1,0 +1,262 @@
+* {
+    padding: 3px;
+    box-sizing: border-box;
+}
+/*About Page*/
+body{
+    background-color: lightgrey;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 70px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+
+img {
+    height: 385px;
+    padding: 10px 0px;
+    margin-right:20px;
+    float: left;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    text-align: center;
+    padding: 0px 170px;
+}
+
+img p {
+    float: right;
+    padding: 5px;
+    
+}
+
+#pic-info{
+    padding: 115px 10px;
+    margin:0;
+}
+/*Do not mess with code on top! This is only for the ABOUT PAGE*/
+/*This code below if for EVENTS PAGE ONLY*/
+
+#image1-events {
+    float: left;
+    /*height: 100px;*/
+    margin: 0 0 15px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.all-events {
+	  border: 1px solid black;
+      padding: 10px 10px;
+      margin: 30px;
+}
+
+.all-events img {
+    width: 25%;
+    height: 256px;
+    margin: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear:both;
+}
+
+/*.all-events img{*/
+/*    float: left;*/
+/*}*/
+.contentright {
+    float: right;
+    width: 75%;
+}
+.contentright2 {
+    float: right;
+    width: 33%;
+}
+.contentleft2{
+    float: left;
+    width: 33%;
+}
+.contentcenter{
+    width: 33%;
+    float: left;
+
+}
+/*The code ABOVE is for EVENTS ONLY*/
+/*the code **BELOW** is for***WHATSUP***ONLY******** */
+ h1{
+     font-size:40px;
+     text-align:center;
+     color: #990033;
+     font-family: 'Frank Ruhl Libre', sans-serif;
+}
+#thefirst{
+    font-size: 20px;
+    text-align: center;
+    font-family:'Frank Ruhl Libre', sans-serif;
+    border-left:6px solid;
+    border-right:6px solid;
+    
+}
+#350x65PH{
+    
+    
+}
+
+
+div.img:hover {
+    border: 1px solid #777;
+}
+h2{
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    text-align: center;
+}
+
+p{
+
+    border-radius: 5px;
+    
+}
+
+
+/*the code **ABOVE** is for***WHATSUP***ONLY*********/
+
+/*The code BELOW is for CONTACTS PAGE ONLY */
+
+/*iframe {*/
+/*    float: right;*/
+/*}*/
+
+/*footer {*/
+/*    padding:10px 0;*/
+/*    text-align:center;*/
+/*    color:teal;*/
+/*}*/
+/*footer ul {*/
+/*    display:table;*/
+/*    margin:0 auto;*/
+/*}*/
+/*footer li{*/
+/*    display:inline-table;*/
+/*    color:teal;*/
+/*    padding:30px 10px;*/
+/*}*/
+
+/*footer i.fa{*/
+/*    font-size:100%;*/
+/*}*/
+
+
+footer{
+    text-align:center;
+    color:gray;
+    padding:50px 0;
+    background-color:#D3D3D3;
+}
+.footernav li {
+    float: none;
+}
+
+footer .iconlist li a{
+    padding: 0;
+}
+.iconlist {
+    text-align: center;
+}
+.iconlist li {
+    float: none;
+}
+
+.footernav li a{
+    color:gray;
+    padding:10px;
+    text-align:center;
+    float:right;
+    
+}
+
+footer li{
+    display:inline-block;
+
+    
+}
+
+footer i{
+    color:white;
+    padding:30px 10px;
+}
+
+#calendar {
+    text-align: center;
+}
+
+#frontpage {
+    background-image: url("../images/team.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #990033;
+}
+
+#frontpage {
+    text-align: center;
+    padding-top: 65px;
+    font-size: 35px;
+    color: white;
+}
+
+#frontpage {
+    height: 600px;
+}
+
+#frontpage h1 {
+    font-size: 50px;
+    color: white;
+}
+
+#frontpage button {
+    font-size: 16.5px;
+    margin-top: 35px;
+    background-color: black;
+}
+
+#frontpage button a {
+    color:white;
+    text-decoration: none;
+}
+iframe {
+    width: 53%;
+    height: 425px;
+    padding-top: 25px;
+}
+
+#julia{
+    color:white;
+}
+
